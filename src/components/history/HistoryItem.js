@@ -10,7 +10,7 @@ const HistoryItem = ({ transaction, delTransaction }) => (
 		<button
 			className='history__delete'
 			onClick={() => delTransaction(transaction.id)}>
-			x
+			&#935;
 		</button>
 	</li>
 )
